@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "teste-12b02"
+  },
+  "targets": {
+    "teste-12b02": {
+      "hosting": {
+        "GrifoAerodesign": [
+          "teste-12b02"
+        ]
+      }
+    }
+  }
+}

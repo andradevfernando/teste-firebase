@@ -97,6 +97,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "GrifoAerodesign:build:production",
+            "firebaseProject": "teste-12b02",
+            "firebaseHostingSite": "teste-12b02"
+          }
         }
       }
     }
